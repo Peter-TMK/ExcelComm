@@ -1,11 +1,11 @@
 import { Col, Row } from "react-bootstrap";
-import { sampleProducts } from "../data";
+// import { sampleProducts } from "../data";
 // import { Link } from "react-router-dom";
-import { Product } from "../types/Product";
-import { useEffect, useReducer } from "react";
+// import { Product } from "../types/Product";
+// import { useEffect, useReducer } from "react";
 import { ApiError } from "../types/ApiError";
 import { getError } from "../utils";
-import axios from "axios";
+// import axios from "axios";
 import LoadingBox from "../components/LoadingBox";
 import MessageBox from "../components/MessageBox";
 import ProductItem from "../components/ProductItem";
